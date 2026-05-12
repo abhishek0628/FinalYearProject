@@ -1,0 +1,166 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Dependency directories
+# =========================
+node_modules/
+bower_components/
+
+# =========================
+# Frontend Build / Production
+# =========================
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
+frontend/coverage/
+
+# Generic build folders
+dist/
+build/
+out/
+.cache/
+coverage/
+
+# =========================
+# Backend Python
+# =========================
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env/
+
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Package managers
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# Java (if full stack)
+# =========================
+*.class
+target/
+
+# =========================
+# Misc temp/cache
+# =========================
+*.tmp
+*.bak
+*.cache
+
+# =========================
+# Uploaded / Generated Files
+# =========================
+uploads/
+temp/
+tmp/
+
+# =========================
+# Ignore extra frontend/backend folders
+# because humans duplicate projects
+# like biological recursion
+# =========================
+
+frontend/test/
+frontend/project/
+frontend/project2/
+frontend/myapp/
+frontend/cricket/
+frontend/omega/
+frontend/Chat/
+
+backend/test/
+backend/project/
+backend/project2/
+backend/myapp/
+backend/cricket/
+backend/omega/
+backend/Chat/
+
+# =========================
+# Ignore all nested extra folders
+# =========================
+**/test/
+**/project/
+**/project2/
+**/myapp/
+**/cricket/
+**/omega/
+**/Chat/
+
+# =========================
+# Ignore random test files
+# =========================
+test.*
+sample.*
+debug.*
+notes.*
+
+# =========================
+# Mac + Linux junk
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# React/Vite specific
+# =========================
+frontend/.vite/
+frontend/.eslintcache
+
+# =========================
+# Flask specific
+# =========================
+instance/
+.webassets-cache
+
+# =========================
+# Optional database files
+# =========================
+*.sqlite3
+*.db
