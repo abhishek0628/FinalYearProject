@@ -74,37 +74,55 @@ Supported formats:
 # Project Structure
 
 ```bash
-project/
+# Project Structure
+
+```bash
+FinalYearProject/
 │
-├── backend/
-│   ├── app.py
-│   ├── parser.py
-│   ├── encoder.py
-│   ├── solver.py
-│   ├── requirements.txt
-│   └── test.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── InputPanel.jsx
-│   │   │   ├── ResultCard.jsx
-│   │   │   ├── ReachableStates.jsx
-│   │   │   ├── RBNViewer.jsx
-│   │   │   └── LogsPanel.jsx
-│   │   │
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── styles.css
+├── Code/
 │   │
-│   ├── package.json
-│   └── vite.config.js
+│   ├── Frontend/
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   ├── InputPanel.jsx
+│   │   │   │   ├── ResultCard.jsx
+│   │   │   │   ├── ReachableStates.jsx
+│   │   │   │   ├── RBNViewer.jsx
+│   │   │   │   └── LogsPanel.jsx
+│   │   │   │
+│   │   │   ├── services/
+│   │   │   │   └── api.js
+│   │   │   │
+│   │   │   ├── App.jsx
+│   │   │   ├── main.jsx
+│   │   │   └── styles.css
+│   │   │
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   │
+│   ├── Backend/
+│   │   ├── app.py
+│   │   ├── parser.py
+│   │   ├── encoder.py
+│   │   ├── solver.py
+│   │   ├── requirements.txt
+│   │   └── test.txt
+│   │
+│   └── Inputs/
+│       ├── input1.txt
+│       ├── input2.txt
+│       ├── input3.txt
+│       ├── input4.txt
+│       └── input5.txt
 │
-├── .gitignore
+├── Presentation/
+│
+├── Reports/
+│
+├── Research Paper/
+│
 └── README.md
+└── .gitignore
 ```
 
 ---
@@ -126,7 +144,7 @@ cd FinalYearProject
 ## 1. Enter backend directory
 
 ```bash
-cd backend
+cd Code/backend
 ```
 
 ## 2. Create virtual environment
@@ -177,7 +195,7 @@ open another terminal
 ```
 
 ```bash
-cd frontend
+cd Code/frontend
 ```
 
 ## 2. Install dependencies

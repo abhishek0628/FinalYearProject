@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 import API from "./services/api";
 
-import InputPanel from "./components/input";
-import ResultCard from "./components/results";
-import ReachableStates from "./components/reachablestates";
-import RBNViewer from "./components/rbnviewer";
-import LogsPanel from "./components/logs";
+import InputPanel from "./components/InputPanel";
+import ResultCard from "./components/resultCard";
+import ReachableStates from "./components/ReachableStates";
+import RBNViewer from "./components/RBNViewer";
+import LogsPanel from "./components/LogsPanel";
 
 import "./styles.css";
 
